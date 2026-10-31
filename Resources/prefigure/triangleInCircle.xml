@@ -1,0 +1,15 @@
+<diagram dimensions="(450,450)" margins="5">
+  <coordinates bbox="(0,0,5,5)">
+    <grid/>
+    <circle center="(2.5,2.5)" radius="1" stroke="blue"/>
+    <triangle vertices="((2.5,2.5),(3.5,2.5),(3,3.4))" labels="A,B,C"
+              show-vertices="yes" point-fill="orange" />
+  </coordinates>
+  <annotations>
+    <annotation ref="figure"
+                text="This diagram shows a circle with center at point A, and a triangle ABC, where B is present on the periemeter making AB radius and vertex C is present on perimeter above line AB">
+      <annotation ref="circle" text="The circle with center A"/>
+      <annotation ref="triangle" text="Triangle ABC "/>
+    </annotation>
+  </annotations>
+</diagram>

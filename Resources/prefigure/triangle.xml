@@ -1,0 +1,70 @@
+<diagram dimensions="(300,300)" margins="5">
+  <coordinates bbox="(-0.5,-1.5,6.5,5.5)">
+    <definition>B=(0,0)</definition>
+    <definition>C=(6,0)</definition>
+    <definition>Q=(3,0)</definition>
+    <definition>v=(cos(radians(70)), sin(radians(70)))</definition>
+    <definition>A=5*v</definition>
+    <definition>P=Q+2.5*v</definition>
+    <triangle at="ABC" vertices="(C,B,A)" stroke="black"/>
+    <triangle at="CQP" vertices="(C,Q,P)" stroke="black"/>
+    <angle-marker at="angle-B" points="(C,B,A)" stroke="black"/>
+    <angle-marker at="angle-Q" points="(P,Q,B)" stroke="black"/>
+    <point at="C" p="C" alignment="s" size="1"
+           fill="none" stroke="none">
+      <m>C</m>
+    </point>
+    <point at="B" p="B" alignment="s" size="1"
+           fill="none" stroke="none">
+      <m>B</m>
+    </point>
+    <point at="A" p="A" alignment="n" size="1"
+           fill="none" stroke="none">
+      <m>A</m>
+    </point>
+    <point at="Q" p="Q" alignment="s" size="1"
+           fill="none" stroke="none">
+      <m>Q</m>
+    </point>
+    <point at="P" p="P" alignment="ne" size="1"
+           fill="none" stroke="none">
+      <m>P</m>
+    </point>
+    <point at="B-angle" p="B" alignment="e" offset="(10,10)" size="1"
+           fill="none" stroke="none"
+           tactile-offset="(28,24)">
+      <m>70^\circ</m>
+    </point>
+    <point at="Q-angle" p="Q" alignment="w" offset="(0,12)" size="1"
+           fill="none" stroke="none"
+           tactile-offset="(15,58)">
+      <m>110^\circ</m>
+    </point>
+  </coordinates>
+
+  <annotations>
+    <annotation ref="figure"
+                text="Two similar triangles sharing the vertex C. Large triangle ABC has a smaller triangle PQC inside it. Side PQ is parallel to side AB, and Q is the midpoint of side BC, so triangle PQC is half the size of triangle ABC.">
+      <annotation ref="ABC"
+                  text="Large triangle ABC. Vertex B is at the bottom left, vertex C is at the bottom right, and vertex A is at the top, above and slightly to the right of B. Side BC is horizontal.">
+        <annotation ref="A"
+                    text="Vertex A, the top of the large triangle"/>
+        <annotation ref="B"
+                    text="Vertex B, the bottom left corner"/>
+        <annotation ref="C"
+                    text="Vertex C, the bottom right corner, shared by both triangles"/>
+        <annotation ref="angle-B"
+                    text="Angle ABC, at vertex B, measures 70 degrees"/>
+      </annotation>
+      <annotation ref="CQP"
+                  text="Small triangle PQC, inside triangle ABC. Vertex Q is on side BC, halfway between B and C, and vertex P is above Q, on the line from Q parallel to BA.">
+        <annotation ref="P"
+                    text="Vertex P, the top of the small triangle"/>
+        <annotation ref="Q"
+                    text="Vertex Q, the midpoint of side BC"/>
+        <annotation ref="angle-Q"
+                    text="Angle BQP, at vertex Q on the left, measures 110 degrees. It is supplementary to angle PQC, which measures 70 degrees, the same as angle ABC."/>
+      </annotation>
+    </annotation>
+  </annotations>
+</diagram>
