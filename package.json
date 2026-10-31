@@ -1,0 +1,33 @@
+{
+  "name": "accessibility-lecture",
+  "version": "1.0.0",
+  "description": "Raised line lectures",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watch 'npm run build' .",
+    "build:example": "cp example.md slides.md; node ./build.js --standalone; cp index.html example.html",
+    "build:talk": "cp talk.md slides.md; node ./build.js --standalone --links; cp index.html talk.html",
+    "build": "node ./build.js --standalone --links"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorkow/AMS-workshop.git"
+  },
+  "author": "Volker Sorge",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/zorkow/Accessibility-Lecture"
+  },
+  "homepage": "https://github.com/zorkow/Accessibility-Lecture",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-container": "^4.0.0",
+    "markdown-it-header-sections": "^1.0.0",
+    "minify": "^14.1.0",
+    "normalize.css": "^8.0.1"
+  }
+}
