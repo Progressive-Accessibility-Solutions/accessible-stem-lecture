@@ -6,6 +6,18 @@
   --primaryColor: #373B44;
 }
 
+body {
+    background-color: white; /* Light mode */
+    color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black; /* Dark mode */
+        color: #DDD;
+    }
+}
+
 /* Based on http://markdowncss.github.io/modest/ MIT license */
 
 pre,
@@ -125,7 +137,6 @@ html {
 }
 
 body {
-  color: #444;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   line-height: 1.45;
@@ -168,6 +179,10 @@ blockquote {
 
 :root {
   font-size: calc(1rem + 1vw);
+}
+
+use {
+  font-size: 1;
 }
 
 body {
@@ -385,28 +400,3 @@ table {
 table, th, td {
   border: 1px solid;
 }
-
-/* Lecture additions */
-pre { font-size: 0.7rem; line-height: 1.3; overflow-x: auto; overflow-y: auto; max-height: 70vh; }
-section { overflow-y: auto; }
-
-/* Fit-to-screen overrides */
-:root { font-size: clamp(12px, calc(0.5vw + 1.4vh), 26px); }
-body { font-size: 1.1rem; }
-section { padding: 0 0 3.2rem 0; overflow-y: auto; }
-section > * { max-width: 86vw; }
-h1 { font-size: 2.4rem; line-height: 1.25; }
-h2 { font-size: 1.9rem; line-height: 1.25; margin-top: 1rem; }
-h1 small { display: block; font-size: 0.6em; line-height: 1.3; margin-top: 0.4rem; }
-#slide1 { display: flex; flex-direction: column; justify-content: center; padding-bottom: 0; }
-#slide1 h1 { margin-top: 0; text-align: center; }
-#slide1 h1 small { text-align: center; }
-div.Author { font-size: 1.1rem; margin: 1rem auto; }
-div.Affiliations { display: block; text-align: center; }
-div.Affiliation { display: block; }
-div.Affiliation > p > img { max-height: 38vh; width: auto; }
-pre { font-size: 0.8rem; max-height: 60vh; }
-table { font-size: 0.85rem; }
-.directlinks { position: absolute; top: auto; bottom: 0.4rem; right: 0.6rem; left: auto; transform: none;
-  height: auto; max-width: 70vw; text-align: right; font-size: 0.6rem; line-height: 1.8; z-index: 2; }
-section::after { left: 1.5rem; bottom: 0.8rem; font-size: 0.9rem; }
