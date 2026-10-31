@@ -16,10 +16,10 @@ md.use(markdownItAttrs, {
 
 md.use(markdownItHeaderSections);
 
-let PROMISES = [];
 let ASYNC_COUNTER = 0;
 let STANDALONE = process.argv.indexOf('--standalone') !== -1;
 let DIRECT_LINKS = process.argv.indexOf('--links') !== -1;
+let PDF = process.argv.indexOf('--pdf') !== -1;
 
 let HEAD = '';
 let HEAD_REPLACE = {};
@@ -172,29 +172,32 @@ md.use(container, 'Icon', {
     let elements = tokens[idx].info.trim().split(/\s/);
     debug('Icon', start);
     if (start) {
-      HEAD += `<link rel="icon" href="${elements[1]}" type="image/x-icon">\n`; // Image compacting
+      let src = elements[1];
+      if (STANDALONE) {
+        try {
+          let stream = fs.readFileSync(src, {encoding:'base64'});
+          src = 'data:image/x-icon;base64,\n' + stream;
+        } catch (e) {
+        }
+      }
+      HEAD += `<link rel="icon" href="${src}" type="image/x-icon">\n`; // Image compacting
     }
     return '';
   }
 });
 
-
-let asyncMinify = async function(stream, count, func) {
-  func(stream).then((x) => {
+let asyncJS = async function(stream, count) {
+  minify.js(stream).then((x) => {
     HEAD_REPLACE[count] = x;
     ASYNC_COUNTER--;
   });
 };
 
 
-let minifyScript = function(stream, func, type) {
-  let count = type + ASYNC_COUNTER;
+let minifyScript = function(stream) {
+  let count = 'HEAD' + ASYNC_COUNTER;
   ASYNC_COUNTER++;
-  const promise = func(stream).then((x) => {
-    (type === 'HEAD' ? HEAD_REPLACE : BODY_REPLACE)[count] = x;
-    ASYNC_COUNTER--;
-  });
-  PROMISES.push(promise);
+  asyncJS(stream, count);
   return count;
 };
 
@@ -219,7 +222,7 @@ md.use(container, 'Script', {
     // This should throw an error if file is not available!
     let stream = fs.readFileSync(src, {encoding:'utf8'});
     if (elements[2] === 'minify') {
-      stream = minifyScript(stream, minify.js, 'HEAD');
+      stream = minifyScript(stream);
     }
     HEAD += ` <script type="text/javascript">${stream}</script>\n`;
     return '';
@@ -247,7 +250,7 @@ md.use(container, 'CSS', {
     // This should throw an error if file is not available!
     let stream = fs.readFileSync(src, {encoding:'utf8'});
     if (elements[2] === 'minify') {
-      stream = minifyScript(stream, minify.css, 'HEAD');
+      stream = minify.css(stream);
     }
     HEAD += ` <style type="text/css">${stream}</style>\n`;
     return '';
@@ -295,8 +298,8 @@ md.use(container, 'Diagcess', {
     xml = xml.replace(/<sre:[a-z]*\/>/g, '');
     xml = xml.replace(/sre:/g, '');
     if (elements[4] === 'minify') {
-      svg = minifyScript(svg, minify.html, 'BODY');
-      xml = minifyScript(xml, minify.html, 'BODY');
+      svg = minify.html(svg);
+      xml = minify.html(xml);
     }
     div += `<div class="svg">${svg}</div>`;
     div += `<div class="cml">${xml}</div>`;
@@ -425,21 +428,31 @@ let slideIds = function() {
 
 let replace = function() {
   for (let key of Object.keys(HEAD_REPLACE)) {
-    HEAD = HEAD.replace(key, HEAD_REPLACE[key].replace(/\$/g, '$$$$'));
+    HEAD = HEAD.replace(key, HEAD_REPLACE[key]);
   }
   for (let key of Object.keys(BODY_REPLACE)) {
-    SLIDES = SLIDES.replace(key, BODY_REPLACE[key].replace(/\$/g, '$$$$'));
+    SLIDES = SLIDES.replace(key, BODY_REPLACE[key]);
   }
   SLIDES = SLIDES.replace(/<a /g, '<a target="_blank" rel="noopener"');
+  if (PDF) {
+    SLIDES = SLIDES.replace(/[\uD7FF-\u{1FFFF}]/ug, '');
+  }
   slideIds();
 };
 
-let finalizeOutput = async function() {
-  return Promise.all(PROMISES).then(() => {
-    replace();
-    debug('Finalize');
-    output();
-  });
+let finalizeOutput = function() {
+  if (ASYNC_COUNTER) {
+    debug('Finalize', true);
+    setTimeout(
+      finalizeOutput,
+      100
+    );
+    return;
+  }
+  replace();
+  debug('Finalize');
+  output();
 };
 
-await finalizeOutput();
+
+finalizeOutput();
