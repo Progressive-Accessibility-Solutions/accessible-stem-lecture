@@ -61,8 +61,8 @@ tools, plugins, hardware or software!
 
 * STEM is hard enough, let's make not harder for the impaired learner
 * This is **not** a programming class
-* Goal: 
-  * Understand the formats 
+* Goal:
+  * Understand the formats
   * Know how you can create or contribute accessible STEM content
   * This material should give you a good start
 
@@ -89,7 +89,7 @@ What happens when we
 * May have selectable text, tags, links and maths – or be just scanned images
 * Generally optimized to serve print and not display
 
-## Difference in Document Formats 
+## Difference in Document Formats
 
 What is the file or document format you use the most?
 
@@ -112,17 +112,17 @@ Related formats: XML (`.xml`), Markdown (`.md`), EPUB (`.epub`)
 ## An Important Comparison
 
 * DOCX
-  * Purpose: Create and edit documents
-  * Usage: Needs (often proprietary) software to work with
-  * Accessibility: Reasonable, but limited on reflow, maths, graphics
+  * **Purpose:** Create and edit documents
+  * **Usage:** Needs (often proprietary) software to work with
+  * **Accessibility**: Reasonable, but limited on reflow, maths, graphics
 * PDF
-  * Purpose: Fix and preserve document layout mainly for print
-  * Usage: Needs specialist readers with varying capabilities
-  * Accessibility: Very bad, in particular if not tagged
+  * **Purpose:** Fix and preserve document layout mainly for print
+  * **Usage:** Needs specialist readers with varying capabilities
+  * **Accessibility**: Very bad, in particular if not tagged
 * HTML
-  * Purpose: Populate the web at all form factors
-  * Usage: Works in all browers, operating systems, sizes
-  * Accessibility: Very high, with reflow, zoom, and specialist content
+  * **Purpose:** Populate the web at all form factors
+  * **Usage:** Works in all browers, operating systems, sizes
+  * **Accessibility**: Very high, with reflow, zoom, and specialist content
 EPUB (`.epub`) – packaged web content for digital books
   * Needs specialist reader, which often leads to limited accessibility
 
@@ -397,14 +397,14 @@ pandoc chapter.md -o chapter.pdf
 
 **How do we write mathematics so that computers can understand, render and speak it?**
 
-* Equation Editor: 
-  * Part of word processing programs, 
-  * often slow to use and 
+* Equation Editor:
+  * Part of word processing programs,
+  * often slow to use and
   * difficult to make accessible
-* MathML: 
-  * XML language similar to HTML, 
+* MathML:
+  * XML language similar to HTML,
   * complex and not sufficiently expressive
-* LaTeX: 
+* LaTeX:
   * a document preparation system
   * widely used for mathematics and science
   * simple to type and to integrate into markdown
@@ -585,7 +585,7 @@ prefig build -f tactile triangle.xml
 
 ## Other Graphics: Charts
 
-:::Diagcess mol2 Resources/graphics/Ozone.svg Resources/graphics/Ozone.xml minify
+:::Diagcess mol2 Resources/molecules/Ozone-hist.svg Resources/molecules/Ozone-hist.xml minify
 :::
 
 :::Standalone Click or focus on the diagram and press <kbd>A</kbd> to start, arrows to navigate and <kbd>Escape</kbd> to quit.
@@ -625,7 +625,14 @@ An accessible chapter on **Linear Equations and Graphs**:
 
 ## The Ultimate Goal
 
-Enable blind students to **read, navigate, explore, understand and solve** STEM problems independently.
+Enable blind students to
+* read,
+* navigate,
+* explore,
+* understand, and
+* **solve** STEM problems independently.
 
-Ensure content is accessible out of the box and easy to use. Without the burden
-of extra learning for the students.
+Ensure content is accessible
+* out of the box
+* easy to use
+* Without the burden of extra learning for the students.
