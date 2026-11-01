@@ -486,6 +486,10 @@ But how does a student explore the individual sides, vertices, angles and relati
 
 ## Create Accessible Graphics
 
+Diagrams that display as usual but 
+* hide much important information for accessibility
+* are interactive and explorable
+
 :::Diagcess tangent Resources/prefigure/tangent.svg Resources/prefigure/tangent.xml minify
 :::
 
