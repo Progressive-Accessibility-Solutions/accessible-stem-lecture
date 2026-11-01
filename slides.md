@@ -416,7 +416,7 @@ pandoc chapter.md -o chapter.pdf
 * Power: $$x^2$$
 * Square root: $$\sqrt{x}$$
 * Summation: $$\sum_{i=1}^{n} i$$
-* Integral: $$\int_0^1 x^2 \\, dx$$
+* Integral: $$\int_0^1 x^2 \, dx$$
 
 ## The Same, as LaTeX Source
 
