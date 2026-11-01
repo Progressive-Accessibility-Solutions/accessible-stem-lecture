@@ -411,9 +411,9 @@ pandoc chapter.md -o chapter.pdf
 
 ## Basic LaTeX
 
-* Addition: $x + y$
-* Fraction: $\frac{a}{b}$
-* Power: $x^2$
+* Addition: $\quad x + y$
+* Fraction: $\quad \frac{a}{b}$
+* Power: $\qquad x^2$
 * Square root: $\sqrt{x}$
 * Summation: $$\sum_{i=1}^{n} i$$
 * Integral: $$\int_0^1 x^2 \, dx$$
