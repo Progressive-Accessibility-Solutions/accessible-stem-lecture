@@ -1,0 +1,40 @@
+DISPROOF OF A CONJECTURE BY RADEMACHER ON
+PARTIAL FRACTIONS
+MICHAEL DRMOTA AND STEFAN GERHOLD
+Abstract. In his book Topics in Analytic Number Theory, Rademacher considered the generating function of partitions into at most N parts, and conjectured certain limits for the coefficients of its partial fraction decomposition. We
+carry out an asymptotic analysis that disproves this conjecture, thus confirming recent observations of Sills and Zeilberger (Journal of Difference Equations
+and Applications 19, 2013), who gave strong numerical evidence against the
+conjecture.
+1. introduction
+In his book Topics in Analytic Number Theory [12], Rademacher gave a partial
+fraction decomposition of the partition generating function Q
+j≥1
+(1 − x
+j
+)
+−1
+. He
+conjectured that the decomposition of the generating function of partitions into at
+most N parts,
+Y
+N
+j=1
+1
+1 − x
+j
+=
+X
+N
+k=1
+X
+0≤h<k
+gcd(h,k)=1
+bN/k
+X
+c
+l=1
+Ch,k,l(N)
+(x − e
+2πih/k)
+l
+,

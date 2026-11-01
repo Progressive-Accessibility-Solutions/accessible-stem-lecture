@@ -1,0 +1,2328 @@
+<molecule id="m1">
+  <annotations>
+    <annotation speech="SRE_MSG_0">
+      <atom type="Fluorine">a0</atom>
+      <parents>
+        <atomSet>as10</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b0</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_186">
+          <atom type="Carbon">a33</atom>
+          <via type="Connecting bond">
+            <bond type="single">b0</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_12">
+      <atom type="Oxygen">a1</atom>
+      <parents>
+        <atomSet>as2</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b1</bond>
+        <bond>b2</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_199">
+          <atom type="Carbon">a4</atom>
+          <via type="Connecting bond">
+            <bond type="single">b1</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_114">
+          <atom type="Carbon">a12</atom>
+          <via type="Connecting bond">
+            <bond type="single">b2</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_25">
+      <atom type="Nitrogen">a2</atom>
+      <parents>
+        <atomSet>as7</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b3</bond>
+        <bond>b4</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_210">
+          <atom type="Carbon">a7</atom>
+          <via type="Connecting bond">
+            <bond type="single">b3</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_212">
+          <atom type="Carbon">a8</atom>
+          <via type="Connecting bond">
+            <bond type="single">b4</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_109" speech2="SRE_MSG_110">
+          <atom type="Carbon">a11</atom>
+          <via type="Connecting bond">
+            <bond type="single">b5</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_31">
+      <atom type="Nitrogen">a3</atom>
+      <parents>
+        <atomSet>as5</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b6</bond>
+        <bond>b7</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_149">
+          <atom type="Carbon">a22</atom>
+          <via type="Connecting bond">
+            <bond type="single">b6</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_153">
+          <atom type="Carbon">a23</atom>
+          <via type="Connecting bond">
+            <bond type="single">b7</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_164" speech2="SRE_MSG_165">
+          <atom type="Carbon">a26</atom>
+          <via type="Connecting bond">
+            <bond type="single">b8</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_32">
+      <atom type="Carbon">a4</atom>
+      <parents>
+        <atomSet>as2</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b1</bond>
+        <bond>b11</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_134">
+          <atom type="Oxygen">a1</atom>
+          <via type="Connecting bond">
+            <bond type="single">b1</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_202" speech2="SRE_MSG_203">
+          <atom type="Carbon">a5</atom>
+          <via type="Connecting bond">
+            <bond type="single">b9</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_205" speech2="SRE_MSG_206">
+          <atom type="Carbon">a6</atom>
+          <via type="Connecting bond">
+            <bond type="single">b10</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_213">
+          <atom type="Carbon">a9</atom>
+          <via type="Connecting bond">
+            <bond type="single">b11</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_33">
+      <atom type="Carbon">a4</atom>
+      <parents>
+        <atomSet>as7</atomSet>
+      </parents>
+      <position>4</position>
+      <component>
+        <bond>b9</bond>
+        <bond>b10</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_135" speech2="SRE_MSG_136">
+          <atom type="Oxygen">a1</atom>
+          <via type="Connecting bond">
+            <bond type="single">b1</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_204">
+          <atom type="Carbon">a5</atom>
+          <via type="Connecting bond">
+            <bond type="single">b9</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_207">
+          <atom type="Carbon">a6</atom>
+          <via type="Connecting bond">
+            <bond type="single">b10</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_214" speech2="SRE_MSG_215">
+          <atom type="Carbon">a9</atom>
+          <via type="Connecting bond">
+            <bond type="single">b11</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_34">
+      <atom type="Carbon">a5</atom>
+      <parents>
+        <atomSet>as7</atomSet>
+      </parents>
+      <position>3</position>
+      <component>
+        <bond>b9</bond>
+        <bond>b12</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_200">
+          <atom type="Carbon">a4</atom>
+          <via type="Connecting bond">
+            <bond type="single">b9</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_209">
+          <atom type="Carbon">a7</atom>
+          <via type="Connecting bond">
+            <bond type="single">b12</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_35">
+      <atom type="Carbon">a6</atom>
+      <parents>
+        <atomSet>as7</atomSet>
+      </parents>
+      <position>5</position>
+      <component>
+        <bond>b10</bond>
+        <bond>b15</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_195">
+          <atom type="Carbon">a4</atom>
+          <via type="Connecting bond">
+            <bond type="single">b10</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_211">
+          <atom type="Carbon">a8</atom>
+          <via type="Connecting bond">
+            <bond type="single">b15</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_36">
+      <atom type="Carbon">a7</atom>
+      <parents>
+        <atomSet>as7</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b3</bond>
+        <bond>b12</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_172">
+          <atom type="Nitrogen">a2</atom>
+          <via type="Connecting bond">
+            <bond type="single">b3</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_201">
+          <atom type="Carbon">a5</atom>
+          <via type="Connecting bond">
+            <bond type="single">b12</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_37">
+      <atom type="Carbon">a8</atom>
+      <parents>
+        <atomSet>as7</atomSet>
+      </parents>
+      <position>6</position>
+      <component>
+        <bond>b4</bond>
+        <bond>b15</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_173">
+          <atom type="Nitrogen">a2</atom>
+          <via type="Connecting bond">
+            <bond type="single">b4</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_208">
+          <atom type="Carbon">a6</atom>
+          <via type="Connecting bond">
+            <bond type="single">b15</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_38">
+      <atom type="Carbon">a9</atom>
+      <parents>
+        <atomSet>as2</atomSet>
+      </parents>
+      <position>3</position>
+      <component>
+        <bond>b11</bond>
+        <bond>b22</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_196">
+          <atom type="Carbon">a4</atom>
+          <via type="Connecting bond">
+            <bond type="single">b11</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_104">
+          <atom type="Carbon">a10</atom>
+          <via type="Connecting bond">
+            <bond type="single">b22</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_117" speech2="SRE_MSG_118">
+          <atom type="Carbon">a14</atom>
+          <via type="Connecting bond">
+            <bond type="double">b23</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_39">
+      <atom type="Carbon">a9</atom>
+      <parents>
+        <atomSet>as3</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b22</bond>
+        <bond>b23</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_197" speech2="SRE_MSG_198">
+          <atom type="Carbon">a4</atom>
+          <via type="Connecting bond">
+            <bond type="single">b11</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_105">
+          <atom type="Carbon">a10</atom>
+          <via type="Connecting bond">
+            <bond type="single">b22</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_119">
+          <atom type="Carbon">a14</atom>
+          <via type="Connecting bond">
+            <bond type="double">b23</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_1">
+      <atom type="Carbon">a10</atom>
+      <parents>
+        <atomSet>as2</atomSet>
+      </parents>
+      <position>4</position>
+      <component>
+        <bond>b22</bond>
+        <bond>b24</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_216">
+          <atom type="Carbon">a9</atom>
+          <via type="Connecting bond">
+            <bond type="single">b22</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_111">
+          <atom type="Carbon">a12</atom>
+          <via type="Connecting bond">
+            <bond type="single">b24</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_121" speech2="SRE_MSG_122">
+          <atom type="Carbon">a15</atom>
+          <via type="Connecting bond">
+            <bond type="double">b25</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_2">
+      <atom type="Carbon">a10</atom>
+      <parents>
+        <atomSet>as3</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b22</bond>
+        <bond>b25</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_217">
+          <atom type="Carbon">a9</atom>
+          <via type="Connecting bond">
+            <bond type="single">b22</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_112" speech2="SRE_MSG_113">
+          <atom type="Carbon">a12</atom>
+          <via type="Connecting bond">
+            <bond type="single">b24</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_123">
+          <atom type="Carbon">a15</atom>
+          <via type="Connecting bond">
+            <bond type="double">b25</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_3">
+      <atom type="Carbon">a11</atom>
+      <parents>
+        <atomSet>as9</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b26</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_174" speech2="SRE_MSG_175">
+          <atom type="Nitrogen">a2</atom>
+          <via type="Connecting bond">
+            <bond type="single">b5</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_115">
+          <atom type="Carbon">a13</atom>
+          <via type="Connecting bond">
+            <bond type="single">b26</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_4">
+      <atom type="Carbon">a12</atom>
+      <parents>
+        <atomSet>as2</atomSet>
+      </parents>
+      <position>5</position>
+      <component>
+        <bond>b2</bond>
+        <bond>b24</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_137">
+          <atom type="Oxygen">a1</atom>
+          <via type="Connecting bond">
+            <bond type="single">b2</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_106">
+          <atom type="Carbon">a10</atom>
+          <via type="Connecting bond">
+            <bond type="single">b24</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_5">
+      <atom type="Carbon">a13</atom>
+      <parents>
+        <atomSet>as9</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b26</bond>
+        <bond>b31</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_108">
+          <atom type="Carbon">a11</atom>
+          <via type="Connecting bond">
+            <bond type="single">b26</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_125">
+          <atom type="Carbon">a16</atom>
+          <via type="Connecting bond">
+            <bond type="single">b31</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_6">
+      <atom type="Carbon">a14</atom>
+      <parents>
+        <atomSet>as3</atomSet>
+      </parents>
+      <position>6</position>
+      <component>
+        <bond>b23</bond>
+        <bond>b34</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_218">
+          <atom type="Carbon">a9</atom>
+          <via type="Connecting bond">
+            <bond type="double">b23</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_127">
+          <atom type="Carbon">a17</atom>
+          <via type="Connecting bond">
+            <bond type="single">b34</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_7">
+      <atom type="Carbon">a15</atom>
+      <parents>
+        <atomSet>as3</atomSet>
+      </parents>
+      <position>3</position>
+      <component>
+        <bond>b25</bond>
+        <bond>b36</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_107">
+          <atom type="Carbon">a10</atom>
+          <via type="Connecting bond">
+            <bond type="double">b25</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_129">
+          <atom type="Carbon">a18</atom>
+          <via type="Connecting bond">
+            <bond type="single">b36</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_8">
+      <atom type="Carbon">a16</atom>
+      <parents>
+        <atomSet>as9</atomSet>
+      </parents>
+      <position>3</position>
+      <component>
+        <bond>b31</bond>
+        <bond>b38</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_116">
+          <atom type="Carbon">a13</atom>
+          <via type="Connecting bond">
+            <bond type="single">b31</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_131">
+          <atom type="Carbon">a19</atom>
+          <via type="Connecting bond">
+            <bond type="single">b38</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_9">
+      <atom type="Carbon">a17</atom>
+      <parents>
+        <atomSet>as3</atomSet>
+      </parents>
+      <position>5</position>
+      <component>
+        <bond>b34</bond>
+        <bond>b41</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_120">
+          <atom type="Carbon">a14</atom>
+          <via type="Connecting bond">
+            <bond type="single">b34</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_130">
+          <atom type="Carbon">a18</atom>
+          <via type="Connecting bond">
+            <bond type="double">b41</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_10">
+      <atom type="Carbon">a18</atom>
+      <parents>
+        <atomSet>as3</atomSet>
+      </parents>
+      <position>4</position>
+      <component>
+        <bond>b36</bond>
+        <bond>b41</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_124">
+          <atom type="Carbon">a15</atom>
+          <via type="Connecting bond">
+            <bond type="single">b36</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_128">
+          <atom type="Carbon">a17</atom>
+          <via type="Connecting bond">
+            <bond type="double">b41</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_11">
+      <atom type="Carbon">a19</atom>
+      <parents>
+        <atomSet>as9</atomSet>
+      </parents>
+      <position>4</position>
+      <component>
+        <bond>b38</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_126">
+          <atom type="Carbon">a16</atom>
+          <via type="Connecting bond">
+            <bond type="single">b38</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_138" speech2="SRE_MSG_139">
+          <atom type="Carbon">a20</atom>
+          <via type="Connecting bond">
+            <bond type="single">b44</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_13">
+      <atom type="Carbon">a20</atom>
+      <parents>
+        <atomSet>as5</atomSet>
+      </parents>
+      <position>4</position>
+      <component>
+        <bond>b47</bond>
+        <bond>b48</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_132" speech2="SRE_MSG_133">
+          <atom type="Carbon">a19</atom>
+          <via type="Connecting bond">
+            <bond type="single">b44</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_144">
+          <atom type="Carbon">a21</atom>
+          <via type="Connecting bond">
+            <bond type="single">b47</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_148">
+          <atom type="Carbon">a22</atom>
+          <via type="Connecting bond">
+            <bond type="double">b48</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_14">
+      <atom type="Carbon">a21</atom>
+      <parents>
+        <atomSet>as5</atomSet>
+      </parents>
+      <position>3</position>
+      <component>
+        <bond>b47</bond>
+        <bond>b49</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_140">
+          <atom type="Carbon">a20</atom>
+          <via type="Connecting bond">
+            <bond type="single">b47</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_150">
+          <atom type="Carbon">a23</atom>
+          <via type="Connecting bond">
+            <bond type="single">b49</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_154" speech2="SRE_MSG_155">
+          <atom type="Carbon">a24</atom>
+          <via type="Connecting bond">
+            <bond type="double">b50</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_15">
+      <atom type="Carbon">a21</atom>
+      <parents>
+        <atomSet>as6</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b49</bond>
+        <bond>b50</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_141" speech2="SRE_MSG_142">
+          <atom type="Carbon">a20</atom>
+          <via type="Connecting bond">
+            <bond type="single">b47</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_151">
+          <atom type="Carbon">a23</atom>
+          <via type="Connecting bond">
+            <bond type="single">b49</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_156">
+          <atom type="Carbon">a24</atom>
+          <via type="Connecting bond">
+            <bond type="double">b50</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_16">
+      <atom type="Carbon">a22</atom>
+      <parents>
+        <atomSet>as5</atomSet>
+      </parents>
+      <position>5</position>
+      <component>
+        <bond>b6</bond>
+        <bond>b48</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_189">
+          <atom type="Nitrogen">a3</atom>
+          <via type="Connecting bond">
+            <bond type="single">b6</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_143">
+          <atom type="Carbon">a20</atom>
+          <via type="Connecting bond">
+            <bond type="double">b48</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_17">
+      <atom type="Carbon">a23</atom>
+      <parents>
+        <atomSet>as5</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b7</bond>
+        <bond>b49</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_190">
+          <atom type="Nitrogen">a3</atom>
+          <via type="Connecting bond">
+            <bond type="single">b7</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_145">
+          <atom type="Carbon">a21</atom>
+          <via type="Connecting bond">
+            <bond type="single">b49</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_158" speech2="SRE_MSG_159">
+          <atom type="Carbon">a25</atom>
+          <via type="Connecting bond">
+            <bond type="double">b52</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_18">
+      <atom type="Carbon">a23</atom>
+      <parents>
+        <atomSet>as6</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b49</bond>
+        <bond>b52</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_191" speech2="SRE_MSG_192">
+          <atom type="Nitrogen">a3</atom>
+          <via type="Connecting bond">
+            <bond type="single">b7</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_146">
+          <atom type="Carbon">a21</atom>
+          <via type="Connecting bond">
+            <bond type="single">b49</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_160">
+          <atom type="Carbon">a25</atom>
+          <via type="Connecting bond">
+            <bond type="double">b52</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_19">
+      <atom type="Carbon">a24</atom>
+      <parents>
+        <atomSet>as6</atomSet>
+      </parents>
+      <position>3</position>
+      <component>
+        <bond>b50</bond>
+        <bond>b53</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_147">
+          <atom type="Carbon">a21</atom>
+          <via type="Connecting bond">
+            <bond type="double">b50</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_166">
+          <atom type="Carbon">a27</atom>
+          <via type="Connecting bond">
+            <bond type="single">b53</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_20">
+      <atom type="Carbon">a25</atom>
+      <parents>
+        <atomSet>as6</atomSet>
+      </parents>
+      <position>6</position>
+      <component>
+        <bond>b52</bond>
+        <bond>b55</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_152">
+          <atom type="Carbon">a23</atom>
+          <via type="Connecting bond">
+            <bond type="double">b52</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_168">
+          <atom type="Carbon">a28</atom>
+          <via type="Connecting bond">
+            <bond type="single">b55</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_21">
+      <atom type="Carbon">a26</atom>
+      <parents>
+        <atomSet>as8</atomSet>
+      </parents>
+      <position>1</position>
+      <component>
+        <bond>b57</bond>
+        <bond>b58</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_193" speech2="SRE_MSG_194">
+          <atom type="Nitrogen">a3</atom>
+          <via type="Connecting bond">
+            <bond type="single">b8</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_170">
+          <atom type="Carbon">a29</atom>
+          <via type="Connecting bond">
+            <bond type="double">b57</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_176">
+          <atom type="Carbon">a30</atom>
+          <via type="Connecting bond">
+            <bond type="single">b58</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_22">
+      <atom type="Carbon">a27</atom>
+      <parents>
+        <atomSet>as6</atomSet>
+      </parents>
+      <position>4</position>
+      <component>
+        <bond>b53</bond>
+        <bond>b59</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_157">
+          <atom type="Carbon">a24</atom>
+          <via type="Connecting bond">
+            <bond type="single">b53</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_169">
+          <atom type="Carbon">a28</atom>
+          <via type="Connecting bond">
+            <bond type="double">b59</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_23">
+      <atom type="Carbon">a28</atom>
+      <parents>
+        <atomSet>as6</atomSet>
+      </parents>
+      <position>5</position>
+      <component>
+        <bond>b55</bond>
+        <bond>b59</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_161">
+          <atom type="Carbon">a25</atom>
+          <via type="Connecting bond">
+            <bond type="single">b55</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_167">
+          <atom type="Carbon">a27</atom>
+          <via type="Connecting bond">
+            <bond type="double">b59</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_24">
+      <atom type="Carbon">a29</atom>
+      <parents>
+        <atomSet>as8</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b57</bond>
+        <bond>b62</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_162">
+          <atom type="Carbon">a26</atom>
+          <via type="Connecting bond">
+            <bond type="double">b57</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_178">
+          <atom type="Carbon">a31</atom>
+          <via type="Connecting bond">
+            <bond type="single">b62</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_26">
+      <atom type="Carbon">a30</atom>
+      <parents>
+        <atomSet>as8</atomSet>
+      </parents>
+      <position>6</position>
+      <component>
+        <bond>b58</bond>
+        <bond>b64</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_163">
+          <atom type="Carbon">a26</atom>
+          <via type="Connecting bond">
+            <bond type="single">b58</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_182">
+          <atom type="Carbon">a32</atom>
+          <via type="Connecting bond">
+            <bond type="double">b64</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_27">
+      <atom type="Carbon">a31</atom>
+      <parents>
+        <atomSet>as8</atomSet>
+      </parents>
+      <position>3</position>
+      <component>
+        <bond>b62</bond>
+        <bond>b66</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_171">
+          <atom type="Carbon">a29</atom>
+          <via type="Connecting bond">
+            <bond type="single">b62</bond>
+            <position>2</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_187">
+          <atom type="Carbon">a33</atom>
+          <via type="Connecting bond">
+            <bond type="double">b66</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_28">
+      <atom type="Carbon">a32</atom>
+      <parents>
+        <atomSet>as8</atomSet>
+      </parents>
+      <position>5</position>
+      <component>
+        <bond>b64</bond>
+        <bond>b68</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_177">
+          <atom type="Carbon">a30</atom>
+          <via type="Connecting bond">
+            <bond type="double">b64</bond>
+            <position>6</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_188">
+          <atom type="Carbon">a33</atom>
+          <via type="Connecting bond">
+            <bond type="single">b68</bond>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_30">
+      <atom type="Carbon">a33</atom>
+      <parents>
+        <atomSet>as8</atomSet>
+      </parents>
+      <position>4</position>
+      <component>
+        <bond>b66</bond>
+        <bond>b68</bond>
+      </component>
+      <neighbours>
+        <neighbour location="external" speech="SRE_MSG_102" speech2="SRE_MSG_103">
+          <atom type="Fluorine">a0</atom>
+          <via type="Connecting bond">
+            <bond type="single">b0</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_181">
+          <atom type="Carbon">a31</atom>
+          <via type="Connecting bond">
+            <bond type="double">b66</bond>
+            <position>3</position>
+          </via>
+        </neighbour>
+        <neighbour location="internal" speech="SRE_MSG_185">
+          <atom type="Carbon">a32</atom>
+          <via type="Connecting bond">
+            <bond type="single">b68</bond>
+            <position>5</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_29">
+      <atom type="Carbon">a33</atom>
+      <parents>
+        <atomSet>as10</atomSet>
+      </parents>
+      <position>2</position>
+      <component>
+        <bond>b0</bond>
+      </component>
+      <neighbours>
+        <neighbour location="internal" speech="SRE_MSG_101">
+          <atom type="Fluorine">a0</atom>
+          <via type="Connecting bond">
+            <bond type="single">b0</bond>
+            <position>1</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_179" speech2="SRE_MSG_180">
+          <atom type="Carbon">a31</atom>
+          <via type="Connecting bond">
+            <bond type="double">b66</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour location="external" speech="SRE_MSG_183" speech2="SRE_MSG_184">
+          <atom type="Carbon">a32</atom>
+          <via type="Connecting bond">
+            <bond type="single">b68</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_62">
+      <bond type="single">b0</bond>
+      <position>1</position>
+      <component>
+        <atom>a0</atom>
+        <atom>a33</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_63">
+      <bond type="single">b1</bond>
+      <position>1</position>
+      <component>
+        <atom>a1</atom>
+        <atom>a4</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_68">
+      <bond type="single">b2</bond>
+      <position>1</position>
+      <component>
+        <atom>a1</atom>
+        <atom>a12</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_74">
+      <bond type="single">b3</bond>
+      <position>1</position>
+      <component>
+        <atom>a2</atom>
+        <atom>a7</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_79">
+      <bond type="single">b4</bond>
+      <position>1</position>
+      <component>
+        <atom>a2</atom>
+        <atom>a8</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_85">
+      <bond type="single">b5</bond>
+      <position>1</position>
+      <component>
+        <atom>a2</atom>
+        <atom>a11</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_93">
+      <bond type="single">b6</bond>
+      <position>1</position>
+      <component>
+        <atom>a3</atom>
+        <atom>a22</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_98">
+      <bond type="single">b7</bond>
+      <position>1</position>
+      <component>
+        <atom>a3</atom>
+        <atom>a23</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_99">
+      <bond type="single">b8</bond>
+      <position>1</position>
+      <component>
+        <atom>a3</atom>
+        <atom>a26</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_100">
+      <bond type="single">b9</bond>
+      <position>1</position>
+      <component>
+        <atom>a4</atom>
+        <atom>a5</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_64">
+      <bond type="single">b10</bond>
+      <position>1</position>
+      <component>
+        <atom>a4</atom>
+        <atom>a6</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_65">
+      <bond type="single">b11</bond>
+      <position>1</position>
+      <component>
+        <atom>a4</atom>
+        <atom>a9</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_66">
+      <bond type="single">b12</bond>
+      <position>1</position>
+      <component>
+        <atom>a5</atom>
+        <atom>a7</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_67">
+      <bond type="single">b15</bond>
+      <position>1</position>
+      <component>
+        <atom>a6</atom>
+        <atom>a8</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_69">
+      <bond type="single">b22</bond>
+      <position>1</position>
+      <component>
+        <atom>a9</atom>
+        <atom>a10</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_70">
+      <bond type="double">b23</bond>
+      <position>1</position>
+      <component>
+        <atom>a9</atom>
+        <atom>a14</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_71">
+      <bond type="single">b24</bond>
+      <position>1</position>
+      <component>
+        <atom>a10</atom>
+        <atom>a12</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_72">
+      <bond type="double">b25</bond>
+      <position>1</position>
+      <component>
+        <atom>a10</atom>
+        <atom>a15</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_73">
+      <bond type="single">b26</bond>
+      <position>1</position>
+      <component>
+        <atom>a11</atom>
+        <atom>a13</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_75">
+      <bond type="single">b31</bond>
+      <position>1</position>
+      <component>
+        <atom>a13</atom>
+        <atom>a16</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_76">
+      <bond type="single">b34</bond>
+      <position>1</position>
+      <component>
+        <atom>a14</atom>
+        <atom>a17</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_77">
+      <bond type="single">b36</bond>
+      <position>1</position>
+      <component>
+        <atom>a15</atom>
+        <atom>a18</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_78">
+      <bond type="single">b38</bond>
+      <position>1</position>
+      <component>
+        <atom>a16</atom>
+        <atom>a19</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_80">
+      <bond type="double">b41</bond>
+      <position>1</position>
+      <component>
+        <atom>a17</atom>
+        <atom>a18</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_81">
+      <bond type="single">b44</bond>
+      <position>1</position>
+      <component>
+        <atom>a19</atom>
+        <atom>a20</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_82">
+      <bond type="single">b47</bond>
+      <position>1</position>
+      <component>
+        <atom>a20</atom>
+        <atom>a21</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_83">
+      <bond type="double">b48</bond>
+      <position>1</position>
+      <component>
+        <atom>a20</atom>
+        <atom>a22</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_84">
+      <bond type="single">b49</bond>
+      <position>1</position>
+      <component>
+        <atom>a21</atom>
+        <atom>a23</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_86">
+      <bond type="double">b50</bond>
+      <position>1</position>
+      <component>
+        <atom>a21</atom>
+        <atom>a24</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_87">
+      <bond type="double">b52</bond>
+      <position>1</position>
+      <component>
+        <atom>a23</atom>
+        <atom>a25</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_88">
+      <bond type="single">b53</bond>
+      <position>1</position>
+      <component>
+        <atom>a24</atom>
+        <atom>a27</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_89">
+      <bond type="single">b55</bond>
+      <position>1</position>
+      <component>
+        <atom>a25</atom>
+        <atom>a28</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_90">
+      <bond type="double">b57</bond>
+      <position>1</position>
+      <component>
+        <atom>a26</atom>
+        <atom>a29</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_91">
+      <bond type="single">b58</bond>
+      <position>1</position>
+      <component>
+        <atom>a26</atom>
+        <atom>a30</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_92">
+      <bond type="double">b59</bond>
+      <position>1</position>
+      <component>
+        <atom>a27</atom>
+        <atom>a28</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_94">
+      <bond type="single">b62</bond>
+      <position>1</position>
+      <component>
+        <atom>a29</atom>
+        <atom>a31</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_95">
+      <bond type="double">b64</bond>
+      <position>1</position>
+      <component>
+        <atom>a30</atom>
+        <atom>a32</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_96">
+      <bond type="double">b66</bond>
+      <position>1</position>
+      <component>
+        <atom>a31</atom>
+        <atom>a33</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_97">
+      <bond type="single">b68</bond>
+      <position>1</position>
+      <component>
+        <atom>a32</atom>
+        <atom>a33</atom>
+      </component>
+    </annotation>
+    <annotation speech="SRE_MSG_40" speech2="SRE_MSG_41">
+      <atomSet type="Fused ring">as1</atomSet>
+      <parents>
+        <atomSet>as11</atomSet>
+      </parents>
+      <position>1</position>
+      <children>
+        <atomSet>as2</atomSet>
+        <atomSet>as3</atomSet>
+      </children>
+      <component>
+        <atom>a1</atom>
+        <atom>a4</atom>
+        <atom>a9</atom>
+        <atom>a10</atom>
+        <atom>a12</atom>
+        <atom>a14</atom>
+        <atom>a15</atom>
+        <atom>a17</atom>
+        <atom>a18</atom>
+        <bond>b1</bond>
+        <bond>b2</bond>
+        <bond>b11</bond>
+        <bond>b22</bond>
+        <bond>b23</bond>
+        <bond>b24</bond>
+        <bond>b25</bond>
+        <bond>b34</bond>
+        <bond>b36</bond>
+        <bond>b41</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_237" speech2="SRE_MSG_238">
+          <atomSet type="Isolated ring">as7</atomSet>
+          <via type="Spiro atom">
+            <atom type="Carbon">a4</atom>
+            <position>-1</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_46" speech2="SRE_MSG_47">
+      <atomSet type="Subring">as2</atomSet>
+      <parents>
+        <atomSet>as1</atomSet>
+      </parents>
+      <position>1</position>
+      <children>
+        <atom>a1</atom>
+        <atom>a4</atom>
+        <atom>a9</atom>
+        <atom>a10</atom>
+        <atom>a12</atom>
+      </children>
+      <component>
+        <atom>a1</atom>
+        <atom>a4</atom>
+        <atom>a9</atom>
+        <atom>a10</atom>
+        <atom>a12</atom>
+        <bond>b1</bond>
+        <bond>b2</bond>
+        <bond>b11</bond>
+        <bond>b22</bond>
+        <bond>b24</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_226">
+          <atomSet type="Subring">as3</atomSet>
+          <via type="Bridge atom">
+            <atom type="Carbon">a9</atom>
+            <position>3</position>
+          </via>
+          <via type="Bridge atom">
+            <atom type="Carbon">a10</atom>
+            <position>4</position>
+          </via>
+          <via type="Shared bond">
+            <bond type="single">b22</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_239" speech2="SRE_MSG_240">
+          <atomSet type="Isolated ring">as7</atomSet>
+          <via type="Spiro atom">
+            <atom type="Carbon">a4</atom>
+            <position>2</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_48" speech2="SRE_MSG_49">
+      <atomSet type="Subring">as3</atomSet>
+      <parents>
+        <atomSet>as1</atomSet>
+      </parents>
+      <position>2</position>
+      <children>
+        <atom>a9</atom>
+        <atom>a10</atom>
+        <atom>a15</atom>
+        <atom>a18</atom>
+        <atom>a17</atom>
+        <atom>a14</atom>
+      </children>
+      <component>
+        <atom>a9</atom>
+        <atom>a10</atom>
+        <atom>a14</atom>
+        <atom>a15</atom>
+        <atom>a17</atom>
+        <atom>a18</atom>
+        <bond>b22</bond>
+        <bond>b23</bond>
+        <bond>b25</bond>
+        <bond>b34</bond>
+        <bond>b36</bond>
+        <bond>b41</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_241" speech2="SRE_MSG_242">
+          <atomSet type="Isolated ring">as7</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b11</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_225">
+          <atomSet type="Subring">as2</atomSet>
+          <via type="Bridge atom">
+            <atom type="Carbon">a9</atom>
+            <position>1</position>
+          </via>
+          <via type="Bridge atom">
+            <atom type="Carbon">a10</atom>
+            <position>2</position>
+          </via>
+          <via type="Shared bond">
+            <bond type="single">b22</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_50" speech2="SRE_MSG_51">
+      <atomSet type="Fused ring">as4</atomSet>
+      <parents>
+        <atomSet>as11</atomSet>
+      </parents>
+      <position>4</position>
+      <children>
+        <atomSet>as5</atomSet>
+        <atomSet>as6</atomSet>
+      </children>
+      <component>
+        <atom>a3</atom>
+        <atom>a20</atom>
+        <atom>a21</atom>
+        <atom>a22</atom>
+        <atom>a23</atom>
+        <atom>a24</atom>
+        <atom>a25</atom>
+        <atom>a27</atom>
+        <atom>a28</atom>
+        <bond>b6</bond>
+        <bond>b7</bond>
+        <bond>b47</bond>
+        <bond>b48</bond>
+        <bond>b49</bond>
+        <bond>b50</bond>
+        <bond>b52</bond>
+        <bond>b53</bond>
+        <bond>b55</bond>
+        <bond>b59</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_247" speech2="SRE_MSG_248">
+          <atomSet type="Isolated ring">as8</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b8</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_251" speech2="SRE_MSG_252">
+          <atomSet type="Aliphatic chain">as9</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b44</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_52" speech2="SRE_MSG_53">
+      <atomSet type="Subring">as5</atomSet>
+      <parents>
+        <atomSet>as4</atomSet>
+      </parents>
+      <position>1</position>
+      <children>
+        <atom>a3</atom>
+        <atom>a23</atom>
+        <atom>a21</atom>
+        <atom>a20</atom>
+        <atom>a22</atom>
+      </children>
+      <component>
+        <atom>a3</atom>
+        <atom>a20</atom>
+        <atom>a21</atom>
+        <atom>a22</atom>
+        <atom>a23</atom>
+        <bond>b6</bond>
+        <bond>b7</bond>
+        <bond>b47</bond>
+        <bond>b48</bond>
+        <bond>b49</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_249" speech2="SRE_MSG_250">
+          <atomSet type="Isolated ring">as8</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b8</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_236">
+          <atomSet type="Subring">as6</atomSet>
+          <via type="Bridge atom">
+            <atom type="Carbon">a21</atom>
+            <position>3</position>
+          </via>
+          <via type="Bridge atom">
+            <atom type="Carbon">a23</atom>
+            <position>2</position>
+          </via>
+          <via type="Shared bond">
+            <bond type="single">b49</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_253" speech2="SRE_MSG_254">
+          <atomSet type="Aliphatic chain">as9</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b44</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_54" speech2="SRE_MSG_55">
+      <atomSet type="Subring">as6</atomSet>
+      <parents>
+        <atomSet>as4</atomSet>
+      </parents>
+      <position>2</position>
+      <children>
+        <atom>a23</atom>
+        <atom>a21</atom>
+        <atom>a24</atom>
+        <atom>a27</atom>
+        <atom>a28</atom>
+        <atom>a25</atom>
+      </children>
+      <component>
+        <atom>a21</atom>
+        <atom>a23</atom>
+        <atom>a24</atom>
+        <atom>a25</atom>
+        <atom>a27</atom>
+        <atom>a28</atom>
+        <bond>b49</bond>
+        <bond>b50</bond>
+        <bond>b52</bond>
+        <bond>b53</bond>
+        <bond>b55</bond>
+        <bond>b59</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_233">
+          <atomSet type="Subring">as5</atomSet>
+          <via type="Bridge atom">
+            <atom type="Carbon">a21</atom>
+            <position>2</position>
+          </via>
+          <via type="Bridge atom">
+            <atom type="Carbon">a23</atom>
+            <position>1</position>
+          </via>
+          <via type="Shared bond">
+            <bond type="single">b49</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_56" speech2="SRE_MSG_57">
+      <atomSet type="Isolated ring">as7</atomSet>
+      <parents>
+        <atomSet>as11</atomSet>
+      </parents>
+      <position>2</position>
+      <children>
+        <atom>a2</atom>
+        <atom>a7</atom>
+        <atom>a5</atom>
+        <atom>a4</atom>
+        <atom>a6</atom>
+        <atom>a8</atom>
+      </children>
+      <component>
+        <atom>a2</atom>
+        <atom>a4</atom>
+        <atom>a5</atom>
+        <atom>a6</atom>
+        <atom>a7</atom>
+        <atom>a8</atom>
+        <bond>b3</bond>
+        <bond>b4</bond>
+        <bond>b9</bond>
+        <bond>b10</bond>
+        <bond>b12</bond>
+        <bond>b15</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_227" speech2="SRE_MSG_228">
+          <atomSet type="Subring">as3</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b11</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_221" speech2="SRE_MSG_222">
+          <atomSet type="Fused ring">as1</atomSet>
+          <via type="Spiro atom">
+            <atom type="Carbon">a4</atom>
+            <position>4</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_255" speech2="SRE_MSG_256">
+          <atomSet type="Aliphatic chain">as9</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b5</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_223" speech2="SRE_MSG_224">
+          <atomSet type="Subring">as2</atomSet>
+          <via type="Spiro atom">
+            <atom type="Carbon">a4</atom>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_58" speech2="SRE_MSG_59">
+      <atomSet type="Isolated ring">as8</atomSet>
+      <parents>
+        <atomSet>as11</atomSet>
+      </parents>
+      <position>5</position>
+      <children>
+        <atom>a26</atom>
+        <atom>a29</atom>
+        <atom>a31</atom>
+        <atom>a33</atom>
+        <atom>a32</atom>
+        <atom>a30</atom>
+      </children>
+      <component>
+        <atom>a26</atom>
+        <atom>a29</atom>
+        <atom>a30</atom>
+        <atom>a31</atom>
+        <atom>a32</atom>
+        <atom>a33</atom>
+        <bond>b57</bond>
+        <bond>b58</bond>
+        <bond>b62</bond>
+        <bond>b64</bond>
+        <bond>b66</bond>
+        <bond>b68</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_231" speech2="SRE_MSG_232">
+          <atomSet type="Fused ring">as4</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b8</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_234" speech2="SRE_MSG_235">
+          <atomSet type="Subring">as5</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b8</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_219" speech2="SRE_MSG_220">
+          <atomSet type="Functional group">as10</atomSet>
+          <via type="Shared atom">
+            <atom type="Carbon">a33</atom>
+            <position>4</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_60" speech2="SRE_MSG_61">
+      <atomSet type="Aliphatic chain">as9</atomSet>
+      <parents>
+        <atomSet>as11</atomSet>
+      </parents>
+      <position>3</position>
+      <children>
+        <atom>a11</atom>
+        <atom>a13</atom>
+        <atom>a16</atom>
+        <atom>a19</atom>
+      </children>
+      <component>
+        <atom>a11</atom>
+        <atom>a13</atom>
+        <atom>a16</atom>
+        <atom>a19</atom>
+        <bond>b26</bond>
+        <bond>b31</bond>
+        <bond>b38</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_243" speech2="SRE_MSG_244">
+          <atomSet type="Isolated ring">as7</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b5</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+        <neighbour speech="SRE_MSG_229" speech2="SRE_MSG_230">
+          <atomSet type="Fused ring">as4</atomSet>
+          <via type="Connecting bond">
+            <bond type="single">b44</bond>
+            <position>0</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_42" speech2="SRE_MSG_43">
+      <atomSet type="Functional group">as10</atomSet>
+      <parents>
+        <atomSet>as11</atomSet>
+      </parents>
+      <position>6</position>
+      <children>
+        <atom>a0</atom>
+        <atom>a33</atom>
+      </children>
+      <component>
+        <atom>a0</atom>
+        <atom>a33</atom>
+        <bond>b0</bond>
+      </component>
+      <neighbours>
+        <neighbour speech="SRE_MSG_245" speech2="SRE_MSG_246">
+          <atomSet type="Isolated ring">as8</atomSet>
+          <via type="Shared atom">
+            <atom type="Carbon">a33</atom>
+            <position>2</position>
+          </via>
+        </neighbour>
+      </neighbours>
+    </annotation>
+    <annotation speech="SRE_MSG_44" speech2="SRE_MSG_45">
+      <atomSet type="Molecule">as11</atomSet>
+      <position>0</position>
+      <children>
+        <atomSet>as1</atomSet>
+        <atomSet>as7</atomSet>
+        <atomSet>as9</atomSet>
+        <atomSet>as4</atomSet>
+        <atomSet>as8</atomSet>
+        <atomSet>as10</atomSet>
+      </children>
+      <component>
+        <atom>a0</atom>
+        <atom>a1</atom>
+        <atom>a2</atom>
+        <atom>a3</atom>
+        <atom>a4</atom>
+        <atom>a5</atom>
+        <atom>a6</atom>
+        <atom>a7</atom>
+        <atom>a8</atom>
+        <atom>a9</atom>
+        <atom>a10</atom>
+        <atom>a11</atom>
+        <atom>a12</atom>
+        <atom>a13</atom>
+        <atom>a14</atom>
+        <atom>a15</atom>
+        <atom>a16</atom>
+        <atom>a17</atom>
+        <atom>a18</atom>
+        <atom>a19</atom>
+        <atom>a20</atom>
+        <atom>a21</atom>
+        <atom>a22</atom>
+        <atom>a23</atom>
+        <atom>a24</atom>
+        <atom>a25</atom>
+        <atom>a26</atom>
+        <atom>a27</atom>
+        <atom>a28</atom>
+        <atom>a29</atom>
+        <atom>a30</atom>
+        <atom>a31</atom>
+        <atom>a32</atom>
+        <atom>a33</atom>
+        <bond>b0</bond>
+        <bond>b1</bond>
+        <bond>b2</bond>
+        <bond>b3</bond>
+        <bond>b4</bond>
+        <bond>b5</bond>
+        <bond>b6</bond>
+        <bond>b7</bond>
+        <bond>b8</bond>
+        <bond>b9</bond>
+        <bond>b10</bond>
+        <bond>b11</bond>
+        <bond>b12</bond>
+        <bond>b15</bond>
+        <bond>b22</bond>
+        <bond>b23</bond>
+        <bond>b24</bond>
+        <bond>b25</bond>
+        <bond>b26</bond>
+        <bond>b31</bond>
+        <bond>b34</bond>
+        <bond>b36</bond>
+        <bond>b38</bond>
+        <bond>b41</bond>
+        <bond>b44</bond>
+        <bond>b47</bond>
+        <bond>b48</bond>
+        <bond>b49</bond>
+        <bond>b50</bond>
+        <bond>b52</bond>
+        <bond>b53</bond>
+        <bond>b55</bond>
+        <bond>b57</bond>
+        <bond>b58</bond>
+        <bond>b59</bond>
+        <bond>b62</bond>
+        <bond>b64</bond>
+        <bond>b66</bond>
+        <bond>b68</bond>
+      </component>
+      <neighbours></neighbours>
+    </annotation>
+  </annotations>
+  <messages>
+    <language>en</language>
+    <message msg="SRE_MSG_0">Fluorine 1</message>
+    <message msg="SRE_MSG_1">Carbon 4</message>
+    <message msg="SRE_MSG_2">Carbon 2</message>
+    <message msg="SRE_MSG_3">Carbon 1 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_4">Carbon 5 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_5">Carbon 2 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_6">Carbon 6 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_7">Carbon 3 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_8">Carbon 3 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_9">Carbon 5 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_10">Carbon 4 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_11">Carbon 4 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_12">Oxygen 1</message>
+    <message msg="SRE_MSG_13">Carbon 4</message>
+    <message msg="SRE_MSG_14">Carbon 3</message>
+    <message msg="SRE_MSG_15">Carbon 2</message>
+    <message msg="SRE_MSG_16">Carbon 5 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_17">Carbon 2</message>
+    <message msg="SRE_MSG_18">Carbon 1</message>
+    <message msg="SRE_MSG_19">Carbon 3 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_20">Carbon 6 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_21">Carbon 1</message>
+    <message msg="SRE_MSG_22">Carbon 4 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_23">Carbon 5 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_24">Carbon 2 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_25">Nitrogen 1</message>
+    <message msg="SRE_MSG_26">Carbon 6 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_27">Carbon 3 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_28">Carbon 5 bonded to 1 hydrogen</message>
+    <message msg="SRE_MSG_29">Carbon 2</message>
+    <message msg="SRE_MSG_30">Carbon 4</message>
+    <message msg="SRE_MSG_31">Nitrogen 1</message>
+    <message msg="SRE_MSG_32">Carbon 2</message>
+    <message msg="SRE_MSG_33">Carbon 4</message>
+    <message msg="SRE_MSG_34">Carbon 3 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_35">Carbon 5 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_36">Carbon 2 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_37">Carbon 6 bonded to 2 hydrogens</message>
+    <message msg="SRE_MSG_38">Carbon 3</message>
+    <message msg="SRE_MSG_39">Carbon 1</message>
+    <message msg="SRE_MSG_40">Fused ring system with 2 subrings. Substitution at position 2.</message>
+    <message msg="SRE_MSG_41">Fused ring system Phthalane with 2 subrings. Substitution at position 2.</message>
+    <message msg="SRE_MSG_42">Functional group F C.</message>
+    <message msg="SRE_MSG_43">Functional group Arylfluoride.</message>
+    <message msg="SRE_MSG_44">Molecule consisting of fused ring system with 2 subrings, ring with 6 elements, aliphatic chain of length 4, fused ring system with 2 subrings, ring with 6 elements and functional group F C.</message>
+    <message msg="SRE_MSG_45">Siramesine.</message>
+    <message msg="SRE_MSG_46">Subring with 5 elements. Oxygen at position 5. Substitutions at positions 2, 3 and 4.</message>
+    <message msg="SRE_MSG_47">2,5-Dihydrofuran subring. Substitutions at positions 2, 3 and 4.</message>
+    <message msg="SRE_MSG_48">Subring with 6 elements. Doubly bonded between positions 1 and 6, doubly bonded between positions 2 and 3 and doubly bonded between positions 4 and 5. Substitutions at positions 1 and 2.</message>
+    <message msg="SRE_MSG_49">Benzene subring. Substitutions at positions 1 and 2.</message>
+    <message msg="SRE_MSG_50">Fused ring system with 2 subrings. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_51">Fused ring system Indole with 2 subrings. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_52">Subring with 5 elements. Nitrogen at position 5. Doubly bonded between positions 4 and 5. Substitutions at positions 1, 2, 3 and 4.</message>
+    <message msg="SRE_MSG_53">Pyrrole subring. Substitutions at positions 1, 2, 3 and 4.</message>
+    <message msg="SRE_MSG_54">Subring with 6 elements. Doubly bonded between positions 1 and 6, doubly bonded between positions 2 and 3 and doubly bonded between positions 4 and 5. Substitutions at positions 1 and 2.</message>
+    <message msg="SRE_MSG_55">Benzene subring. Substitutions at positions 1 and 2.</message>
+    <message msg="SRE_MSG_56">Ring with 6 elements. Nitrogen at position 6. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_57">Piperidine ring. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_58">Ring with 6 elements. Doubly bonded between positions 1 and 2, doubly bonded between positions 3 and 4 and doubly bonded between positions 5 and 6. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_59">Benzene ring. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_60">Aliphatic chain of length 4. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_61">N-Butane. Substitutions at positions 1 and 4.</message>
+    <message msg="SRE_MSG_62">single bond</message>
+    <message msg="SRE_MSG_63">single bond</message>
+    <message msg="SRE_MSG_64">single bond</message>
+    <message msg="SRE_MSG_65">single bond</message>
+    <message msg="SRE_MSG_66">single bond</message>
+    <message msg="SRE_MSG_67">single bond</message>
+    <message msg="SRE_MSG_68">single bond</message>
+    <message msg="SRE_MSG_69">double bond</message>
+    <message msg="SRE_MSG_70">double bond</message>
+    <message msg="SRE_MSG_71">single bond</message>
+    <message msg="SRE_MSG_72">double bond</message>
+    <message msg="SRE_MSG_73">single bond</message>
+    <message msg="SRE_MSG_74">single bond</message>
+    <message msg="SRE_MSG_75">single bond</message>
+    <message msg="SRE_MSG_76">double bond</message>
+    <message msg="SRE_MSG_77">double bond</message>
+    <message msg="SRE_MSG_78">single bond</message>
+    <message msg="SRE_MSG_79">single bond</message>
+    <message msg="SRE_MSG_80">double bond</message>
+    <message msg="SRE_MSG_81">single bond</message>
+    <message msg="SRE_MSG_82">double bond</message>
+    <message msg="SRE_MSG_83">double bond</message>
+    <message msg="SRE_MSG_84">double bond</message>
+    <message msg="SRE_MSG_85">single bond</message>
+    <message msg="SRE_MSG_86">double bond</message>
+    <message msg="SRE_MSG_87">double bond</message>
+    <message msg="SRE_MSG_88">double bond</message>
+    <message msg="SRE_MSG_89">double bond</message>
+    <message msg="SRE_MSG_90">double bond</message>
+    <message msg="SRE_MSG_91">double bond</message>
+    <message msg="SRE_MSG_92">double bond</message>
+    <message msg="SRE_MSG_93">double bond</message>
+    <message msg="SRE_MSG_94">double bond</message>
+    <message msg="SRE_MSG_95">double bond</message>
+    <message msg="SRE_MSG_96">double bond</message>
+    <message msg="SRE_MSG_97">double bond</message>
+    <message msg="SRE_MSG_98">double bond</message>
+    <message msg="SRE_MSG_99">single bond</message>
+    <message msg="SRE_MSG_100">single bond</message>
+    <message msg="SRE_MSG_101">single bonded to Fluorine 1</message>
+    <message msg="SRE_MSG_102">single bonded to Functional group F C.</message>
+    <message msg="SRE_MSG_103">single bonded to Functional group Arylfluoride.</message>
+    <message msg="SRE_MSG_104">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_105">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_106">single bonded to Carbon 4</message>
+    <message msg="SRE_MSG_107">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_108">single bonded to Carbon 1</message>
+    <message msg="SRE_MSG_109">single bonded to Aliphatic chain of length 4.</message>
+    <message msg="SRE_MSG_110">single bonded to N-Butane.</message>
+    <message msg="SRE_MSG_111">single bonded to Carbon 5</message>
+    <message msg="SRE_MSG_112">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_113">single bonded to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_114">single bonded to Carbon 5</message>
+    <message msg="SRE_MSG_115">single bonded to Carbon 2</message>
+    <message msg="SRE_MSG_116">single bonded to Carbon 2</message>
+    <message msg="SRE_MSG_117">doubly bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_118">doubly bonded to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_119">doubly bonded to Carbon 6</message>
+    <message msg="SRE_MSG_120">doubly bonded to Carbon 6</message>
+    <message msg="SRE_MSG_121">doubly bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_122">doubly bonded to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_123">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_124">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_125">single bonded to Carbon 3</message>
+    <message msg="SRE_MSG_126">single bonded to Carbon 3</message>
+    <message msg="SRE_MSG_127">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_128">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_129">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_130">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_131">single bonded to Carbon 4</message>
+    <message msg="SRE_MSG_132">single bonded to Aliphatic chain of length 4.</message>
+    <message msg="SRE_MSG_133">single bonded to N-Butane.</message>
+    <message msg="SRE_MSG_134">single bonded to Oxygen 1</message>
+    <message msg="SRE_MSG_135">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_136">single bonded to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_137">single bonded to Oxygen 1</message>
+    <message msg="SRE_MSG_138">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_139">single bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_140">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_141">doubly bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_142">doubly bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_143">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_144">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_145">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_146">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_147">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_148">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_149">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_150">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_151">doubly bonded to Carbon 1</message>
+    <message msg="SRE_MSG_152">doubly bonded to Carbon 1</message>
+    <message msg="SRE_MSG_153">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_154">doubly bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_155">doubly bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_156">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_157">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_158">doubly bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_159">doubly bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_160">doubly bonded to Carbon 6</message>
+    <message msg="SRE_MSG_161">doubly bonded to Carbon 6</message>
+    <message msg="SRE_MSG_162">doubly bonded to Carbon 1</message>
+    <message msg="SRE_MSG_163">doubly bonded to Carbon 1</message>
+    <message msg="SRE_MSG_164">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_165">single bonded to Benzene ring.</message>
+    <message msg="SRE_MSG_166">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_167">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_168">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_169">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_170">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_171">doubly bonded to Carbon 2</message>
+    <message msg="SRE_MSG_172">single bonded to Nitrogen 1</message>
+    <message msg="SRE_MSG_173">single bonded to Nitrogen 1</message>
+    <message msg="SRE_MSG_174">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_175">single bonded to Piperidine ring.</message>
+    <message msg="SRE_MSG_176">doubly bonded to Carbon 6</message>
+    <message msg="SRE_MSG_177">doubly bonded to Carbon 6</message>
+    <message msg="SRE_MSG_178">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_179">doubly bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_180">doubly bonded to Benzene ring.</message>
+    <message msg="SRE_MSG_181">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_182">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_183">doubly bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_184">doubly bonded to Benzene ring.</message>
+    <message msg="SRE_MSG_185">doubly bonded to Carbon 5</message>
+    <message msg="SRE_MSG_186">single bonded to Carbon 2</message>
+    <message msg="SRE_MSG_187">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_188">doubly bonded to Carbon 4</message>
+    <message msg="SRE_MSG_189">doubly bonded to Nitrogen 1</message>
+    <message msg="SRE_MSG_190">doubly bonded to Nitrogen 1</message>
+    <message msg="SRE_MSG_191">doubly bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_192">doubly bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_193">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_194">single bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_195">single bonded to Carbon 4</message>
+    <message msg="SRE_MSG_196">single bonded to Carbon 2</message>
+    <message msg="SRE_MSG_197">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_198">single bonded to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_199">single bonded to Carbon 2</message>
+    <message msg="SRE_MSG_200">single bonded to Carbon 4</message>
+    <message msg="SRE_MSG_201">single bonded to Carbon 3</message>
+    <message msg="SRE_MSG_202">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_203">single bonded to Piperidine ring.</message>
+    <message msg="SRE_MSG_204">single bonded to Carbon 3</message>
+    <message msg="SRE_MSG_205">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_206">single bonded to Piperidine ring.</message>
+    <message msg="SRE_MSG_207">single bonded to Carbon 5</message>
+    <message msg="SRE_MSG_208">single bonded to Carbon 5</message>
+    <message msg="SRE_MSG_209">single bonded to Carbon 2</message>
+    <message msg="SRE_MSG_210">single bonded to Carbon 2</message>
+    <message msg="SRE_MSG_211">single bonded to Carbon 6</message>
+    <message msg="SRE_MSG_212">single bonded to Carbon 6</message>
+    <message msg="SRE_MSG_213">single bonded to Carbon 3</message>
+    <message msg="SRE_MSG_214">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_215">single bonded to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_216">doubly bonded to Carbon 3</message>
+    <message msg="SRE_MSG_217">doubly bonded to Carbon 1</message>
+    <message msg="SRE_MSG_218">doubly bonded to Carbon 1</message>
+    <message msg="SRE_MSG_219">Shared atom Carbon 4 with Functional group F C.</message>
+    <message msg="SRE_MSG_220">Shared atom Carbon 4 with Functional group Arylfluoride.</message>
+    <message msg="SRE_MSG_221">Spiro atom Carbon 4 to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_222">Spiro atom Carbon 4 to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_223">Spiro atom Carbon 4 to Subring with 5 elements.</message>
+    <message msg="SRE_MSG_224">Spiro atom Carbon 4 to 2,5-Dihydrofuran subring.</message>
+    <message msg="SRE_MSG_225">Fused via bridge atom Carbon 3, bridge atom Carbon 4 and shared double bond.</message>
+    <message msg="SRE_MSG_226">Fused via bridge atom Carbon 1, bridge atom Carbon 2 and shared double bond.</message>
+    <message msg="SRE_MSG_227">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_228">single bonded to Fused ring system Phthalane with 2 subrings.</message>
+    <message msg="SRE_MSG_229">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_230">single bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_231">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_232">single bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_233">Fused via bridge atom Carbon 3, bridge atom Carbon 2 and shared double bond.</message>
+    <message msg="SRE_MSG_234">single bonded to Fused ring system with 2 subrings.</message>
+    <message msg="SRE_MSG_235">single bonded to Fused ring system Indole with 2 subrings.</message>
+    <message msg="SRE_MSG_236">Fused via bridge atom Carbon 2, bridge atom Carbon 1 and shared double bond.</message>
+    <message msg="SRE_MSG_237">Spiro atom Carbon -1 to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_238">Spiro atom Carbon -1 to Piperidine ring.</message>
+    <message msg="SRE_MSG_239">Spiro atom Carbon 2 to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_240">Spiro atom Carbon 2 to Piperidine ring.</message>
+    <message msg="SRE_MSG_241">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_242">single bonded to Piperidine ring.</message>
+    <message msg="SRE_MSG_243">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_244">single bonded to Piperidine ring.</message>
+    <message msg="SRE_MSG_245">Shared atom Carbon 2 with Ring with 6 elements.</message>
+    <message msg="SRE_MSG_246">Shared atom Carbon 2 with Benzene ring.</message>
+    <message msg="SRE_MSG_247">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_248">single bonded to Benzene ring.</message>
+    <message msg="SRE_MSG_249">single bonded to Ring with 6 elements.</message>
+    <message msg="SRE_MSG_250">single bonded to Benzene ring.</message>
+    <message msg="SRE_MSG_251">single bonded to Aliphatic chain of length 4.</message>
+    <message msg="SRE_MSG_252">single bonded to N-Butane.</message>
+    <message msg="SRE_MSG_253">single bonded to Aliphatic chain of length 4.</message>
+    <message msg="SRE_MSG_254">single bonded to N-Butane.</message>
+    <message msg="SRE_MSG_255">single bonded to Aliphatic chain of length 4.</message>
+    <message msg="SRE_MSG_256">single bonded to N-Butane.</message>
+  </messages>
+</molecule>

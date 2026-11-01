@@ -1,0 +1,72 @@
+Supporting VI readers and authors through accessible
+mathematical diagrams created in PreFigure
+David Austin
+austind@gvsu.edu
+Department of Mathematics
+Grand Valley State University
+Allendale, MI, USA
+Neha Jadhav
+n.jadhav@progressiveaccess.com
+Progressive Accessibility Solutions
+Birmingham, UK
+Alexei Kolesnikov
+AKolesnikov@towson.edu
+Department of Mathematics
+Towson University
+Baltimore, MD, USA
+Jason Siefken
+siefkenj@math.toronto.edu
+Department of Mathematics
+University of Toronto
+Toronto, Canada
+Volker Sorge
+v.sorge@bham.ac.uk
+School of Computer Science
+University of Birmingham
+Birmingham, UK
+Abstract
+Reading and authoring mathematical diagrams is difficult for Visually Impaired (VI) readers. We present PreFigure, a system for
+creating mathematical diagrams from high-level descriptions that
+compile to SVG and support interactive, layered exploration with
+audio rendering and sonification via the diagcess library. Tactile
+diagrams suitable for embossing can also be created from the same
+descriptions. PreFigure can be used within document authoring
+workflows (e.g., PreTeXt) and through the PreFigure Playground, a
+standalone web-based editor whose input elements are designed to
+be accessible.
+In addition to describing this system, we report on Stage 1 of an
+ongoing user study conducted at a secondary school for the blind.
+Eighteen Grade 10 students (17 blind, 1 low vision) were evaluated on their comprehension of a set of diagrams either through
+traditional tactile media or through the computer-based PreFigure
+Playground with screen reader support. We also conducted semistructured discussions with geometry teachers. Observations and
+participant feedback highlight recurring barriers in tactile materials (e.g., dense grids, labeling ambiguity, physical distortion, and
+confusion between 2D and 3D representations). We identify actionable usability requirements for digital diagram interaction (e.g.,
+clearer confirmation and error feedback, focus management, and
+consistent conventions). The results suggest that computer-based
+PreFigure representations are feasible for secondary-level learners
+and can complement tactile methods for diagram comprehension.
+CCS Concepts
+• Human-centered computing → Accessibility technologies;
+Accessibility systems and tools; • Computing methodologies
+→ Graphics file formats.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+DSAI’26, Alexandroupolis, Greece
+© 2026 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM Reference Format:
+David Austin, Neha Jadhav, Alexei Kolesnikov, Jason Siefken, and Volker
+Sorge. 2026. Supporting VI readers and authors through accessible mathematical diagrams created in PreFigure. In 12th International Conference
+on Software Development and Technologies for Enhancing Accessibility and
+Fighting Info-exclusion (DSAI 2026), June 22-24, 2026, Democritus University
+of Thrace, Alexandroupolis, Greece. ACM, New York, NY, USA, 10 pages.
+1 Introduction
+1.1 Background and motivation
+Mathematical expressions and graphics are an integral part of communication in most technical subjects. Efforts to make these features accessible to Visually Impaired (VI) readers started decades
+ago. Some of the ideas behind the modern readers of mathematical
+formulas were developed in [19]; communication of cartographic information can be found in [14]; and communication of (𝑥𝑦)-graphs
+with techniques like sonification in [5, 11]. Today, mathematical for
